@@ -1,0 +1,23 @@
+html,body {
+    background-color: rgb(140, 140, 140);
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin: 15%;
+    justify-items: center;
+}
+.key {
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    padding:5%;
+}
+.one {
+    grid-column: 2/4;
+    grid-row: 2/5;
+}
