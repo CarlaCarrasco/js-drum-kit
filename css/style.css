@@ -1,13 +1,10 @@
-/* html {
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  } */
-
   html, body {
-    /* margin: 20px; */
-    font-family: "Gill Sans", sans-serif;
+    background-image: url(/joao-silas-vKa3ZlOYpOY-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    /* font-family: "Gill Sans", sans-serif; */
   }
 
 .wrapper{
@@ -21,14 +18,18 @@
     grid-template-rows: repeat(3,15vh);
     justify-content: center;
     align-content: center;
+    color: #fff;
+
     
 }
 .key {
-    background-color: #444;
-    color: #fff;
+    background-color:rgb(245, 75, 66);
+    opacity: .75;
     border-radius: 20px;
+    border: 2px solid rgba(152, 141, 141, 0.83);
     padding: 20px;
     font-size: 1.25rem;
+    font-weight: bold;
     text-transform: uppercase;
     text-align: center;
     
@@ -51,9 +52,15 @@
 } */
 h1 {
     text-align: center;
+    color: #fff;
     font-size: 2rem;
-    margin: 20px
+    margin: 20px;
+    font-family: "Kaushan Script", cursive;
+    font-weight: bold;
+    font-size: 3em;
+    text-transform: uppercase;
 }
+
 .one {
     grid-column: 1 / 5;
   }
@@ -82,7 +89,7 @@ h1 {
       bottom: 0;
       width: 100%;
       text-align: center;
-      background-color: #444;
+      /* background-color: rgb(24, 24, 24); */
       color: #fff;
       padding: 1vh;
   }
