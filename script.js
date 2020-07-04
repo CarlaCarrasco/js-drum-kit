@@ -12,4 +12,8 @@ window.addEventListener('keyup', function (e) {
     const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
     key.classList.remove("playing");
 
+<<<<<<< HEAD
 });
+=======
+})
+>>>>>>> 42b9a0ea2e5d2c68ebed9e6f06ad72c94b308673
